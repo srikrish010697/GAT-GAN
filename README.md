@@ -35,23 +35,15 @@ python preprocess --dataset --dir --file_type
 
 To reproduce the numerical results in the paper, run the following to use the models stored in /models depending on sequence length:
 
-```train
-python evaluate.py -use_cuda
-```
-Optionally drop the flag ```-use_cuda``` to run the experiments on CPU.
+Coming soon : Model will be be hosted as a REST API 
 
 
 ## Inference (In progress)
 
 To generate synthetic data , run the following command : 
 
-```eval
-python inference.py -use_cuda
-```
-As above, optionally drop the flag ```-use_cuda``` to run the evaluation on CPU.
+Coming soon : Model will be be hosted as a REST API 
 
 ## Numerical Results
 
-The Frechet transformer distance and predictive scores is saved in the 'output/dataset_name/epoch_no/seq_len/results.txt' file. Additionally, t-SNE, PCA and sample time-series data plots are also saved under the same folder.
-
-Running inference.py will produce the generated data files and their corresponding visualizations in the 'output/evaluations' folder.
+The Frechet transformer distance and predictive scores are saved in the 'output/dataset_name/epoch_no/seq_len/results.txt' file. Additionally, t-SNE, PCA and sample time-series data plots are also saved under the same folder.
